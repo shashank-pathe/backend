@@ -1,1 +1,1 @@
-web: gunicorn backend.wsgi –log-file -
+web: waitress-serve --port=$PORT authentication_master.wsgi:application
