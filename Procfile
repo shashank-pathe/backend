@@ -1,1 +1,1 @@
-web: waitress-serve --port=$PORT authentication_master.wsgi:application
+web: waitress-serve --port=$PORT backend.wsgi:application
