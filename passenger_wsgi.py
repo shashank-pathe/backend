@@ -6,7 +6,7 @@ django_project_path = "/home/shashankpathe1/realyou"
 sys.path.append(django_project_path)
 
 # Set the environment variable to tell Django which settings module to use
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "myproject.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "realyou.settings")
 
 # Set the application object
 from django.core.wsgi import get_wsgi_application
